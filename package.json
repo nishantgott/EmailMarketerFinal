@@ -1,0 +1,28 @@
+{
+  "name": "emailmarketer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run start\" \"npm start --prefix ./client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^10.2.1",
+    "mongoose": "^8.3.5",
+    "morgan": "^1.10.0",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^3.1.0",
+    "react-bootstrap": "^2.10.2"
+  }
+}
